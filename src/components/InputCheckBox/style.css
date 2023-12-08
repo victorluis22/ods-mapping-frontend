@@ -1,0 +1,17 @@
+.InputCheckBox{
+    width: 80%;
+}
+
+.InputCheckBox p{
+    font-family: 'sfpromedium';
+    margin-bottom: 0;
+    color: #000;  
+}
+
+.InputCheckBox label{
+    font-family: 'sfpromedium';
+}
+
+.InputCheckBox label{
+    margin-left: 15px;
+}

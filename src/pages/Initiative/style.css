@@ -1,0 +1,72 @@
+.Initiative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.InitiativeContainer {
+    background-color: #f0f0f0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.InitiativeContainer .InitiativeArea{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.InitiativeContainer .InitiativeArea p{
+    font-family: 'sfpromedium';
+    margin-bottom: 0;
+    border-radius: 7px;
+    color: #000;
+}
+
+.InitiativeContainer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: #00bc38;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-family: 'sfpromedium';
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.InitiativeContainer button:hover{
+    background-color: #008728;
+    transition: 0.3s;
+    color: #fff;
+}
+
+@media screen and (max-width: 490px){
+    .InitiativeContainer {
+        background-color: #f0f0f0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90vw;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 20px;
+    }
+}

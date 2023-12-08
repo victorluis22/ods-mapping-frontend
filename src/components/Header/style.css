@@ -1,0 +1,85 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    font-family: 'sfprobold';
+    background-color: var(--white);
+    margin: 0px;
+}
+
+.Header-elements{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 17vh; */
+    margin-bottom: 10px;
+}
+
+.Header-elements .ImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.Header-elements .ImageContainer img{
+    width: 150px;
+}
+
+.Header-elements a img{
+    width: 6vw;
+}
+
+.Header-elements .linkContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.Header-elements .linkContainer a{
+    font-size: 22px;
+    font-family: 'sfproregular';
+    padding: 0px 30px;
+
+    text-decoration: none;
+    color: var(--light-black);
+}
+
+.Header-elements .linkContainer a:hover{
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
+.Header .toogle-menu{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3em;
+}
+
+.Header .toogle-menu:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 950px) {
+    .Header-elements .linkContainer{
+        display: none;
+        background-color: red;
+    }
+
+    .Header-elements a img{
+        width: 6rem;
+        margin-left: -1rem;
+        
+    }
+
+    .Header .toogle-menu{
+        display: flex;
+    }
+}

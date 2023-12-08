@@ -1,0 +1,238 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 0;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.Login .card-login{
+    background-color: #e8e8e8;
+    border-radius: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 30vw;
+   
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.card-login img{
+    width: 30%;
+}
+
+.card-login h4{
+    font-family: 'sfprobold';
+}
+
+.card-login .input-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+}
+.card-login .input-area .label{
+    width: 90%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: start;
+    font-family: 'sfpromedium';
+}
+
+.card-login button{
+    width: 50%;
+    margin-top: 2rem;
+    border: none;
+    height: 3rem;
+    border-radius: 1rem;
+    font-family: 'sfprobold';
+    color: white;
+    font-size: 1.2rem;
+    background-color: #00bc38;
+}
+.card-login .Confirm{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-top: 0.3rem;
+    font-family: 'sfproregular';
+}
+
+.card-login .Confirm label{
+    margin-left: 0.3rem;
+}
+
+.card-login .cadastre{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'sfpromedium';
+}
+
+.card-login .forgot-password{
+    text-decoration: none;
+    color: gray;
+    font-family: 'sfpromedium';
+}
+.card-login .input-area input{
+    border: none;
+    outline: none;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 90%;
+    border-radius: 0.6rem;
+}
+
+.LoginComunity {
+    background: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0;
+    padding-top: 20px;
+    
+}
+
+.LoginComunity img{
+    width: 20%;
+}
+
+.LoginComunity .InputArea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.LoginComunity .inputText{
+    margin-top: 2%;
+    margin-bottom: 7%;
+    width: calc(100% - 20px);
+    padding: 0;
+    height: 6vh;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+
+.LoginComunity button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 6vh;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.LoginComunity button:hover{
+    background-color: #037DCC;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.LoginComunity .Confirm{
+    display: flex;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.LoginComunity .Confirm .CheckBox{
+    margin-right: 10px;
+}
+
+.SignInInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    flex-grow: 1;
+
+    background-image: url("../../assets/backgroundQuiz.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SignInInfo h1, .SignInInfo p{
+    color: #fff;
+}
+
+.SignInInfo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.SignInInfo a:hover{
+    background-color: #037DCC;
+    transition: 0.3s;
+    color: #fff;
+}
+
+@media screen and (max-width: 490px){
+
+    .Login .card-login{
+        background-color: #e8e8e8;
+        border-radius: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        width: 90vw;
+       
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .card-login img{
+        width: 50vw;
+    }
+
+    
+}
+
+@media screen and (max-width: 900px){
+
+    .Login .card-login{
+        background-color: #e8e8e8;
+        border-radius: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        width: 90vw;
+       
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .card-login img{
+        width: 50vw;
+    }
+
+    
+}
