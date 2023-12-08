@@ -34,11 +34,11 @@
  }
 
  .Home .banner-button-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
  }
 
  .Home .banner-button{
@@ -94,7 +94,8 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  margin: 40px;
+  margin: 40px 0px;
+  
 }
 
 .Home .OdsContent{
@@ -136,35 +137,27 @@
 }
 
 .Home .Content{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .Home .Content a{
-margin-bottom: 5%;
-display: flex;
-align-items: center;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
 }
 
 .Home .Content img{
-height: 1.2rem;
-margin-right: 0.3rem;
+  height: 1.2rem;
+  margin-right: 0.3rem;
 }
  @media screen and (max-width: 900px){
-
-  .OdsAll {
-    display: flex;
-    flex-direction: column;
+  .Home .OdsContent{
+    width: 90%;
   }
-
-  .OdsContent p{
-    width: 70vw;
-    text-align: justify;
-  }
-
   .Home .banner-text{
     align-items: center;
     width: 100%;
@@ -177,25 +170,6 @@ margin-right: 0.3rem;
  }
 
  @media screen and (max-width: 490px){
-  .Home .home-row{
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    font-family: 'sfproregular';
-    flex-wrap: wrap;
- }
-  .OdsAll{
-      display: flex;
-      flex-direction: column;
-      
-  }
-  .OdsContent p {
-    text-align: justify;
-    width: 80vw;
-  }
   .Home .banner-image {
     height: 30vh;
   }

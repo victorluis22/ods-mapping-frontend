@@ -1,10 +1,8 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 
 import { Link } from "react-router-dom";
 import './style.css'
 import SliderLogo from "../../components/SliderLogo/SliderLogo";
-import objectives from '../../assets/odsImage.png'
-import sdgCircle from '../../assets/sdgCircle.png'
 import bannerImage from '../../assets/banner.png'
 
 const Home = () => {
