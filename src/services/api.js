@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: 'https://hack2030-backend.onrender.com/'
+    baseURL: (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? "http://localhost:5000" : process.env.API_URL
     // baseURL: 'http://localhost:5000'
 })
 
