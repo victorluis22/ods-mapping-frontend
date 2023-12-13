@@ -1,7 +1,8 @@
 import axios from "axios";
 
+console.log(process.env.NODE_ENV, process.env.API_URL)
 export const api = axios.create({
-    baseURL: (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? "http://localhost:5000" : process.env.API_URL
+    baseURL: (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? "http://localhost:5000" : "https://adroit-crow-397821.rj.r.appspot.com/"
     // baseURL: 'http://localhost:5000'
 })
 
