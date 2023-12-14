@@ -1,0 +1,108 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2DBE15;
+    flex-direction: column;
+    /* min-height: 10vh; */
+}
+
+.FooterLogo-Span{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterLogo-Span img {
+    width: 80%;
+    margin: 10%;
+
+}
+
+.FooterLogo-Span span {
+    color: white;
+    width: 500px;
+    margin: 10%;
+}
+
+.FooterP1 p{
+    color: white;
+}
+
+.FooterP2 p{
+    color: white;
+    font-family: 'sfpromedium';
+}
+
+.FooterP1, .FooterP2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterP1 p, .FooterP2 p{
+    margin: 0;
+}
+
+.Pall {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+
+    font-family: 'sfpromedium';
+    height: 100%;
+}
+
+@media screen and (max-width: 490px){
+    .Footer{
+        display: flex;
+        flex-direction: column;
+
+    } 
+
+    .Pall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .Pall img{
+
+        margin-top: 10%;
+    }
+
+    .Pall p{
+
+        margin-top: 10%;
+    }
+}
+
+.Pall img{
+    width: 8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .terms-privacy{
+    color: white;
+    font-family: 'sfpromedium';
+    margin: 10px;
+    text-align: center;
+}
+
+.Footer .terms-privacy a{
+    color: white;
+}
+
+.Line {
+    width: 95%;
+    border-top: 0.5px solid white;
+}
+

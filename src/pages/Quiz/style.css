@@ -1,0 +1,211 @@
+.Quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.QuizContainer {
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.QuizContainer .QuizArea{
+    width: 90%;
+    background-color: #f0f0f0;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.QuizContainer .QuizArea p{
+    font-family: 'sfpromedium';
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin: 0;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+}
+
+.QuizArea .tags{
+    width: 100%;
+    margin-left: 1rem;
+    height: 4rem;
+    display: flex;
+}
+
+.QuizArea .tags img{
+    height: 3rem;
+    
+}
+
+.QuizArea select{
+    background-color: white;
+    font-family: 'sfproregular';
+    height: 3rem;
+}
+
+.QuizArea select option{
+    background-color: white;
+    font-family: 'sfproregular';
+    height: 3rem;
+    font-size: 1.1rem;
+}
+
+.QuizContainer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 6rem;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-family: 'sfprobold';
+    color: white;
+    border: none;
+    background-color: #5bb846;
+    margin-bottom: 5rem;
+}
+
+.QuizContainer button:hover{
+    background-color: #3e7d44;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.QuizContainer .ods1{
+    border-left: 1rem solid #c41f2d;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods2{
+    border-left: 1rem solid #d6ab37;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods3{
+    border-left: 1rem solid #4c9f45;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods4{
+    border-left: 1rem solid #c41f2d;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods5{
+    border-left: 1rem solid #ec402a;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods6{
+    border-left: 1rem solid #24bce1;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.QuizContainer .ods7{
+    border-left: 1rem solid #f7c212;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.QuizContainer .ods8{
+    border-left: 1rem solid #a01c44;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods9{
+    border-left: 1rem solid #f06a2b;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods10{
+    border-left: 1rem solid #dc1769;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods11{
+    border-left: 1rem solid #f89b27;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods12{
+    border-left: 1rem solid #bc892d;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods13{
+    border-left: 1rem solid #3e7d44;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods14{
+    border-left: 1rem solid #1795d2;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods15{
+    border-left: 1rem solid #5bb846;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods16{
+    border-left: 1rem solid #03689c;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.QuizContainer .ods17{
+    border-left: 1rem solid #16466a;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+@media screen and (max-width: 490px){
+    .QuizContainer {
+        background-color: #fff;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 20px;
+    }
+}

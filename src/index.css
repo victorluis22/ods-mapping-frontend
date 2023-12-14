@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'sfprobold';
+  src: url(assets/fonts/SF-Pro-Text-Bold.otf);
+}
+
+@font-face {
+  font-family: 'sfproregular';
+  src: url(assets/fonts/SF-Pro-Text-Regular.otf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#root{
+  height: 100%;
+  -webkit-print-color-adjust: exact;
+
+  --green: #1ea00a;
+  --white: #fff;
+  --black: #0C0D11;
+  --light-black: #1D1E23;
+  --gray: #47484b;
+  --blue: #009EDB;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

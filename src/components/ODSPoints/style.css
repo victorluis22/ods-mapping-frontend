@@ -1,0 +1,117 @@
+.ODSPoints{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 0.3rem solid white;
+
+    
+}
+
+.ODSPoints .TextArea{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.ODSPoints .TextArea p{
+    text-align: start;
+    color: #fff;
+    font-family: 'sfproregular';
+    
+     
+}
+
+.ODSPoints .TextArea h1{
+    text-align: start;
+    color: #fff;
+}
+
+.ODSPoints span{
+    width: 100%;
+    font-family: 'sfpromedium';
+    font-size: 1.2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.ODSPoints .TextArea a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.ODSPoints .TextArea a:hover{
+    background-color: #fff;
+    transition: 0.3s;
+    color: #000;
+}
+
+.ODSPoints p {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+
+.ODSPoints img{
+    width: 30%;
+}
+
+@media screen and (max-width: 900px){
+    .ODSPoints .TextArea{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .ODSPoints .TextArea p{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .ODSPoints .TextArea h1{
+        width: 100%;
+        margin: 0;
+        
+        text-align: center;
+    }
+
+    .ODSPoints .TextArea a{
+        font-size: 10px;
+    }
+
+    .ODSPoints .ods-points-display{
+       margin: 0;
+       font-size: 1.3rem;
+       width: 50%;
+       font-family: 'sfprobold';
+    }
+
+    .ODSPoints .TextArea a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 6vh;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        margin-top: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    
+}
