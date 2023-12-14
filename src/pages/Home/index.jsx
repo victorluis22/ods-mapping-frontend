@@ -7,6 +7,8 @@ import bannerImage from '../../assets/banner.png'
 
 import eolica from "../../assets/eolica.png"
 import mixed from "../../assets/mixed.png"
+import mixed2 from "../../assets/mixed2.png"
+import serrHackclub from "../../assets/serraHackclub.png"
 
 const Home = () => {
     return(
@@ -39,12 +41,11 @@ const Home = () => {
                 <img src={eolica} className="banner-image" />
                 <div className="banner-text2">
                     <h2 className="responda11">Responda</h2>
-                    <p id="seconddesc">Fazer o questionário é importante para que o meio ambiente mude, para que o planeta seja salvo. contribua, acessando o questionário no botão abaixo.</p>
+                    <p id="seconddesc">Fazer o questionário é importante para que o meio ambiente mude, para que o planeta seja salvo. Contribua, acessando o questionário no botão abaixo.</p>
                     <div className="banner-button-container">
                     <Link to='/participar/login' className='banner-button'>Acesse aqui</Link>
                     <a href="#saiba-mais" className="banner-more-button">Saiba Mais</a>
                     </div>
-
                 </div>
             </div>
 
@@ -54,13 +55,34 @@ const Home = () => {
                     <p id="seconddesc2">O planeta terra passa por tempos difíceis. a emissão de gás carbono tem sido muito acima do que era idealizado pela agenda 2030, o desmatamento aumenta anualmente, e a poluição está fora de controle. como consequência, ocorrem desastres naturais, e uma tendência cada vez menor de que o futuro da humanidade prospere.</p>
                     <p id="seconddesc2">Isso precisa parar imediatamente.</p>
                 </div>
-                <img src={mixed} className="banner-image" alt="Imagem de uma mão segurando uma planta" />
+                <img src={mixed} className="banner-image-mixed" alt="Imagem de uma mão segurando uma planta" />
             </div>
+
+            <div className="banner4">
+                <img src={mixed2} className="banner-image-mixed" alt="Imagem de uma mão segurando uma planta" />
+                <div className="banner-text">
+                    <p id="seconddesc3">Mas nem tudo está perdido.</p>
+                    <p id="seconddesc3">A humanidade também conta com grupos que lutam pela causa, através de trabalho voluntário, ao redor do mundo, eles atuam recolhendo lixo nas praias, fazendo coleta seletiva dos resíduos despejados indevidamente nas ruas, e conscientizando a todos. Conheça alguns deles perto de você, agora!</p>
+                    <div className="banner-button-container">
+                        <Link to='/participar/login' className='banner-button'>Veja o mapa</Link>
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="banner5">
+                <img src={serrHackclub} className="banner-image" />
+                <div className="banner-text2">
+                    <h2 className="quemsomosnos">Quem somos nós?</h2>
+                    <p id="seconddesc">Somos a Serra Hackclub, um grupo de competição de hackaton especializado em engenharia de software, que há pouco mais de um ano conquistou o quarto lugar nacional, e o primeiro lugar geral de toda a Universidade do Estado do Rio de Janeiro.</p>
+                </div>
+            </div>
+
                 
                 <div className="Content">
                     <a target="_blank"  href="https://odsbrasil.gov.br/"><img src="https://cdn.discordapp.com/attachments/1037486089801306113/1037492045343903875/8666682_external_link_icon.png" alt="" />Saiba mais em odsbrasil.gov.br</a>
                 </div>
-            </div>            
+            </div>
                 <SliderLogo></SliderLogo>
         </div>
     )

@@ -39,7 +39,13 @@
 .Home .banner-image {
   height: 60vh;
   border-radius: 10px;
-  box-shadow: 5px 5px#acacac;
+  /* box-shadow: 5px 5px#acacac; */
+}
+
+.Home .banner-image-mixed {
+  height: 80vh;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px#acacac; */
 }
 
 .Home .banner-button-container{
@@ -63,7 +69,7 @@
   justify-content: center;
 
   background: #2DBE15;
-  box-shadow: 0 8px 32px 0 rgba(0, 158, 219, 0.25);
+  /* box-shadow: 0 8px 32px 0 rgba(0, 158, 219, 0.25); */
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
@@ -200,9 +206,21 @@ border-bottom-right-radius: 10px;
 border-top-right-radius: 10px;
 }
 
+.quemsomosnos {
+font-family: 'sfprobold';
+background-color: #FF6600;
+color: #fff;
+padding: 30px;
+font-size: 50px;
+width: 50vw;
+text-align: center;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
 .banner2{
 width: 100%;
-height: 100vh;
+height: 65vh;
 display: flex;
 justify-content: center;
 /* align-items: baseline; */
@@ -213,11 +231,24 @@ background: #fff;
 /* padding: 20px 10px; */
 }
 
+.banner5{
+width: 100%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'sfproregular';
+/* flex-wrap: wrap-reverse; */
+background: #fff;
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+/* padding: 20px 10px; */
+}
+
 #seconddesc {
 font-size: x-large;
-width: 50%;
-text-align: justify;
-margin-left: 180px;
+width: 75%;
+text-align: center;
+/* margin-left: 90px; */
 margin-top: 2%;
 }
 
@@ -228,10 +259,18 @@ text-align: justify;
 margin-top: 2%;
 }
 
+#seconddesc3 {
+font-size: x-large;
+width: 100%;
+/* padding-left: 50px; */
+text-align: justify;
+margin-top: 2%;
+}
+
 .banner-text2{
 display: flex;
 /* justify-content: center; */
-/* align-items: center; */
+align-items: center;
 flex-direction: column;
 width: 50%;
 color: black;
@@ -249,6 +288,20 @@ align-items: center;
 font-family: 'sfproregular';
 flex-wrap: wrap-reverse;
 
+background: #fff;
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+padding: 20px 10px;
+}
+
+.banner4{
+width: 100%;
+margin-top: 3%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'sfproregular';
+flex-wrap: wrap-reverse;
+gap: 20px;
 background: #fff;
 /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 padding: 20px 10px;
