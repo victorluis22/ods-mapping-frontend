@@ -5,14 +5,14 @@
 .Home .banner{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   font-family: 'sfproregular';
   flex-wrap: wrap-reverse;
-  
   background: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
   padding: 20px 10px;
-
+  height: 100vh;
 }
 
 .Home .banner-text{
@@ -30,15 +30,16 @@
   background-color: #2DBE15;
   padding: 30px;
   font-size: 50px;
-  width: 60vw;
+  width: 50vw;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   text-align: center;
 }
 
 .Home .banner-image {
-  height: 50vh;
+  height: 60vh;
   border-radius: 10px;
+  box-shadow: 5px 5px#acacac;
 }
 
 .Home .banner-button-container{
@@ -201,15 +202,15 @@ border-top-right-radius: 10px;
 
 .banner2{
 width: 100%;
+height: 100vh;
 display: flex;
 justify-content: center;
-align-items: center;
+/* align-items: baseline; */
 font-family: 'sfproregular';
-flex-wrap: wrap-reverse;
-
+/* flex-wrap: wrap-reverse; */
 background: #fff;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-padding: 20px 10px;
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+/* padding: 20px 10px; */
 }
 
 #seconddesc {
@@ -229,12 +230,13 @@ margin-top: 2%;
 
 .banner-text2{
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 /* align-items: center; */
 flex-direction: column;
 width: 50%;
 color: black;
 font-weight: 100;
+padding-top: 20px;
 }
 
 
@@ -248,6 +250,6 @@ font-family: 'sfproregular';
 flex-wrap: wrap-reverse;
 
 background: #fff;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 padding: 20px 10px;
 }

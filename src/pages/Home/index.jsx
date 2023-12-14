@@ -21,17 +21,31 @@ const Home = () => {
 
             <div className="OdsAll" id="saiba-mais">
                 
-            <div className="banner2">
-            <img src={eolica} className="banner-image" alt="Imagem de uma turbina eolica" />
+            {/* <div className="banner2">
+                
+                <img src={eolica} className="banner-image" alt="Imagem de uma turbina eolica" />
                 <div className="banner-text2">
                     <h2 className="responda11">Responda</h2>
                     <p id="seconddesc">Fazer o questionário é importante para que o meio ambiente mude, para que o planeta seja salvo. contribua, acessando o questionário no botão abaixo.</p>
                     <div className="banner-button-container">
-                        <Link to='/participar/login' className='banner-button'>Acesse aqui</Link>
-                        <a href="#saiba-mais" className="banner-more-button">Saiba Mais</a>
+                    <Link to='/participar/login' className='banner-button'>Acesse aqui</Link>
+                    <a href="#saiba-mais" className="banner-more-button">Saiba Mais</a>
                     </div>
+                    </div>
+                    
+                </div> */}
+
+            <div className="banner2">
+                <img src={eolica} className="banner-image" />
+                <div className="banner-text2">
+                    <h2 className="responda11">Responda</h2>
+                    <p id="seconddesc">Fazer o questionário é importante para que o meio ambiente mude, para que o planeta seja salvo. contribua, acessando o questionário no botão abaixo.</p>
+                    <div className="banner-button-container">
+                    <Link to='/participar/login' className='banner-button'>Acesse aqui</Link>
+                    <a href="#saiba-mais" className="banner-more-button">Saiba Mais</a>
+                    </div>
+
                 </div>
-                
             </div>
 
             <div className="banner3">
