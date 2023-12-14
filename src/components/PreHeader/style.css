@@ -1,13 +1,13 @@
 .PreHeader-All {
     width: 100%;
-    background-color: var(--blue);
+    background-color: #1B8E08;
     
 }
 
 .PreHeader-elements {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .PreHeader-elements img{

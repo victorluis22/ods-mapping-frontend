@@ -5,7 +5,7 @@
     width: 100%;
 
     font-family: 'sfprobold';
-    background-color: var(--white);
+    background-color: #2DBE15;
     margin: 0px;
 }
 
@@ -46,7 +46,7 @@
     padding: 0px 30px;
 
     text-decoration: none;
-    color: var(--light-black);
+    color: #fff;
 }
 
 .Header-elements .linkContainer a:hover{

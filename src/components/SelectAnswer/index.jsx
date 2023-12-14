@@ -3,17 +3,17 @@ import { useEffect } from "react";
 import './style.css'
 
 const SelectAnswer = ({getAnswers, index, opA, opB, opC, opD, opE}) => {
-    const [valueInfo, setValueInfo] = useState()
+    // const [valueInfo, setValueInfo] = useState()
 
-    useEffect(() => {
-        if(valueInfo === 'Selecione sua resposta'){
-            valueInfo = 7000
-        }
+    // useEffect(() => {
+    //     if(valueInfo === 'Selecione sua resposta'){
+    //         // valueInfo = 7000
+    //     }
 
         
-        getAnswers(valueInfo, index)
+    //     getAnswers(valueInfo, index)
         
-    }, [valueInfo])
+    // }, [valueInfo])
 
     return(
         <div className="SelectAnswer">
