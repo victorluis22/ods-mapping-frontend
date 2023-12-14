@@ -19,7 +19,7 @@ const Header = () => {
                 <Link to="/" className="ImageContainer"><img src={LogoPrincipal} alt=""/></Link>
                 <div className="linkContainer">
                     <Link to='/'>Home</Link>
-                    <Link to='/ranking'>Termômetro</Link>
+                    {/* <Link to='/ranking'>Termômetro</Link> */}
                     <Link to='/dados'>Iniciativas</Link>
                 </div>
 

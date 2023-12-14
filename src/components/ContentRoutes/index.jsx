@@ -3,7 +3,6 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "../../pages/Home";
 import SignIn from "../../pages/SignIn";
-import Ranking from "../../pages/Ranking";
 import Result from "../../pages/Result";
 import Quiz from "../../pages/Quiz";
 import Initiative from "../../pages/Initiative";
@@ -54,7 +53,6 @@ const ContentRoutes = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/participar/login" element={<LoggedRedirection><Login /></LoggedRedirection>} />
                     <Route path="/participar/cadastro" element={<LoggedRedirection><SignIn /></LoggedRedirection>} />
-                    <Route path="/ranking" element={<Ranking />} />
                     <Route path="/resultado" element={<Result />} />
                     <Route path="/painel" element={<NotLoggedRedirection><MainPanel /></NotLoggedRedirection>} />
                     <Route path="/quiz/individual" element={<Quiz />} />
