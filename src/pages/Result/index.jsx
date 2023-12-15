@@ -93,7 +93,7 @@ const Result = () => {
                         <RenderMax />
                     </div>
 
-                    <div hidden className="termometro-content">
+                    <div hidden className="termometro-content noprint">
                         <div className="termometro-title">
                             Comunidade
                         </div>
@@ -108,7 +108,7 @@ const Result = () => {
                             
                         </div>
                     </div>
-                    <div className="RedirectContainer">
+                    <div className="RedirectContainer noprint">
                         <Link to='/ranking'>Ir para o termômetro</Link>
                         <Link to='/dados'>Ver base de dados</Link>
                     </div>

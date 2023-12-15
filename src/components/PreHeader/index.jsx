@@ -9,7 +9,7 @@ import serraLogo from '../../assets/serraLogo.svg'
 
 const PreHeader = () => {
     return(
-        <div className="PreHeader-All">
+        <div className="PreHeader-All noprint">
             <div className="PreHeader-elements">
                 <div className="Links-cont">
                     <Link to='/participar/cadastro'>Junte-se a nós</Link>

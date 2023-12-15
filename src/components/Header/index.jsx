@@ -14,7 +14,7 @@ const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
 
     return(
-        <div className="Header">
+        <div className="Header noprint">
             <div className="Header-elements">
                 <Link to="/" className="ImageContainer"><img src={LogoPrincipal} alt=""/></Link>
                 <div className="linkContainer">

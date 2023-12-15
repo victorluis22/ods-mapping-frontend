@@ -24,3 +24,8 @@
   display: flex;
   flex-direction: column;
 }
+@media print {
+  .noprint {
+     visibility: hidden;
+  }
+}
