@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import HackLogo from '../../assets/hack2030.png'
+import HackLogo from '../../assets/LOGOodsMapping.svg'
 import './style.css'
 import { AuthContext } from "../../contexts/auth";
 import LoadingPage from "../LoadingPage";

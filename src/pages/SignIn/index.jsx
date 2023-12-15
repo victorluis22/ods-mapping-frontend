@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { AuthContext } from "../../contexts/auth";
 import { createUsers } from "../../services/api";
-import HackLogo from '../../assets/hack2030.png'
+import HackLogo from '../../assets/LOGOodsMapping.svg'
 import './style.css'
 import { IMaskInput } from "react-imask";
 import LoadingPage from "../LoadingPage";

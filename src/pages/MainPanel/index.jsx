@@ -4,7 +4,7 @@ import './style.css'
 import { AuthContext } from "../../contexts/auth";
 import { api } from "../../services/api";
 import { Link, useNavigate } from "react-router-dom";
-import HackLogo from '../../assets/hack2030.png'
+import HackLogo from '../../assets/LOGOodsMapping.svg'
 import logoutIcon from '../../assets/logout.svg'
 
 

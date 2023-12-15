@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import './style.css'
 
-import HackLogo from '../../assets/hack2030.png'
+import HackLogo from '../../assets/LOGOodsMapping.svg'
 import serraLogo from '../../assets/serraLogo.svg'
 
 const PreHeader = () => {
